@@ -1,0 +1,63 @@
+.map-container {
+    @apply min-h-screen bg-gray-100 dark:bg-gray-900;
+  }
+  
+  .map-content {
+    @apply p-6;
+  }
+  
+  .map-card {
+    @apply bg-white dark:bg-gray-800 rounded-xl shadow-md p-6;
+  }
+  
+  .map-title {
+    @apply text-2xl font-bold text-gray-900 dark:text-white mb-4;
+  }
+  
+  .map-grid {
+    @apply grid grid-cols-1 md:grid-cols-3 gap-6;
+  }
+  
+  .map-visualization {
+    @apply md:col-span-2 bg-gray-200 dark:bg-gray-700 rounded-lg h-96 flex items-center justify-center;
+  }
+  
+  .zone-list {
+    @apply space-y-4;
+  }
+  
+  .zone-title {
+    @apply text-lg font-semibold text-gray-900 dark:text-white;
+  }
+  
+  .zone-card {
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow p-4 hover:bg-blue-50 dark:hover:bg-gray-700 cursor-pointer transition-colors;
+  }
+  
+  .zone-icon {
+    @apply h-5 w-5;
+  }
+  
+  .zone-details {
+    @apply mt-6 p-4 bg-blue-50 dark:bg-blue-900/50 rounded-lg;
+  }
+  
+  .details-content {
+    @apply flex items-start space-x-4;
+  }
+  
+  .details-title {
+    @apply text-lg font-semibold text-gray-900 dark:text-white;
+  }
+  
+  .details-text {
+    @apply text-gray-600 dark:text-gray-400;
+  }
+  
+  .details-value {
+    @apply font-medium text-gray-900 dark:text-white;
+  }
+  
+  .action-button {
+    @apply bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 transition-colors;
+  }
